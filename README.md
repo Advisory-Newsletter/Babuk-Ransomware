@@ -8,7 +8,7 @@ CVE-2021-34473, CVE-2021-34523 and CVE-2021-31207
 
 PAYLOAD:- bd26b65807026a70909d38c48f2a9e0f8730b1126e80ef078e29e10379722b49 
 
-**RELATED SAMPLES:**- 
+**RELATED SAMPLES:**
 
 b3b66f7e70f1e1b1494677d0ed79fcc7d4901ffae53d89fd023c8b789bb0fe62 - reverse shell to 185[.]219[.]52[.]229:6666 
 
@@ -22,8 +22,8 @@ https://techcommunity.microsoft.com/t5/exchange-team-blog/released-july-2021-exc
 
 —	Have rules created to identify webshells and malicious binaries in EDR and SIEM. Sample rules are in below link.
 
-—	https://github.com/Neo23x0/signature-base/blob/master/yara/expl_proxyshell.yar
-—	https://github.com/Neo23x0/signature-base/blob/master/yara/generic_anomalies.yar#L410
+	https://github.com/Neo23x0/signature-base/blob/master/yara/expl_proxyshell.yar
+	https://github.com/Neo23x0/signature-base/blob/master/yara/generic_anomalies.yar#L410
 
 —	Monitor activities of w3wp.exe 
 —	Ensure AV and EDR is deployed on all servers across the environment especially on those where we have not patched.
