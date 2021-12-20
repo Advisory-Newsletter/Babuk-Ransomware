@@ -1,13 +1,14 @@
 # Babuk-Ransomware
-RELATED IOCs, MITIGATION STEPS AND REFERENCE LINKS
+**RELATED IOCs, MITIGATION STEPS AND REFERENCE LINKS**
 
-Common Vulnerabilities and Exposures (CVE) : CVE-2021-34473, CVE-2021-34523 and CVE-2021-31207
+**Common Vulnerabilities and Exposures (CVE)** 
+CVE-2021-34473, CVE-2021-34523 and CVE-2021-31207
 
-IOCs(Indicators of compromise)
+**IOCs(Indicators of compromise)**
 
 PAYLOAD:- bd26b65807026a70909d38c48f2a9e0f8730b1126e80ef078e29e10379722b49 
 
-RELATED SAMPLES:- 
+**RELATED SAMPLES:**- 
 
 b3b66f7e70f1e1b1494677d0ed79fcc7d4901ffae53d89fd023c8b789bb0fe62 - reverse shell to 185[.]219[.]52[.]229:6666 
 
@@ -15,7 +16,7 @@ b3b66f7e70f1e1b1494677d0ed79fcc7d4901ffae53d89fd023c8b789bb0fe62 - reverse shell
 
 4fa565cc2ebfe97b996786facdb454e4328a28792e27e80e8b46fe24b44781af - leaked Babuk builder 
 
-MITIGATION
+**MITIGATION**
 —	Ensure to have all July security patches associated with Microsoft Exchange is added.
 https://techcommunity.microsoft.com/t5/exchange-team-blog/released-july-2021-exchange-server-security-updates/ba-p/2523421
 
@@ -27,7 +28,7 @@ https://techcommunity.microsoft.com/t5/exchange-team-blog/released-july-2021-exc
 —	Monitor activities of w3wp.exe 
 —	Ensure AV and EDR is deployed on all servers across the environment especially on those where we have not patched.
 
- Reference link:
+ **Reference link:**
  
 1	https://gbhackers.com/babuk-locker-emerges-as-new-enterprise-ransomware-of-2021/ 
 
